@@ -41,8 +41,8 @@ security:
 ##        show-sql: true
 
 spring:
-  application:
-    name: discovery-auth-server
+  #application:
+  #  name: discovery-auth-server
   jpa:
     show-sql: false
     hibernate:
