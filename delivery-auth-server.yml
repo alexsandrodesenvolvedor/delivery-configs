@@ -10,16 +10,16 @@ spring:
   jackson:
     serialization:
       INDENT_OUTPUT: true
-  jpa:
-    show-sql: false
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
-  jmx:
-    enabled: false
-  datasource:
-    url: jdbc:mysql://localhost:3306/oauth?allowPublicKeyRetrieval=true&sslMode=DISABLED
-    username: root
-    password: 12345678
+  #jpa:
+  #  show-sql: false
+  #  hibernate:
+  #    ddl-auto: update
+  #  properties:
+  #    hibernate:
+  #      dialect: org.hibernate.dialect.MySQL5Dialect
+  #jmx:
+  #  enabled: false
+  #datasource:
+  #  url: jdbc:mysql://localhost:3306/oauth?allowPublicKeyRetrieval=true&sslMode=DISABLED
+  #  username: root
+  #  password: 12345678
